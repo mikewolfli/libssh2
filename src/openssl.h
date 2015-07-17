@@ -47,6 +47,8 @@
 #include <openssl/bn.h>
 #include <openssl/pem.h>
 #include <openssl/rand.h>
+#include <openssl/rsa.h>
+#include <openssl/dsa.h>
 
 #ifdef OPENSSL_NO_RSA
 # define LIBSSH2_RSA 0
